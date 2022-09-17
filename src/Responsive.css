@@ -1,0 +1,40 @@
+@media screen and (max-width:670px) {
+    nav{
+      display: block;
+      text-align: center;
+    }
+    
+    nav div{
+      justify-content:center;
+      font-size: 6vw;
+    }
+    p{
+      font-size: 2vh;
+    }
+        body{
+          /* background: url("https://cdn.statusqueen.com/mobilewallpaper/thumbnail/mobile_wallpaper101-633.jpg"); */
+            background: url("https://wallpapercave.com/wp/wp7654970.jpg");
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+        }
+        footer img{
+            width: 7vw;
+            padding: 0vw .5vw;
+        }
+        .card:hover{
+            transform: scale(1.0)
+          }
+          .card {
+            width: 250px;
+            margin: 1vh;
+          
+          }
+          .contain{
+            font-size: 2vh;
+          }
+          .container{        
+            font-size: 2vh;
+          }
+    }

@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0 ;
+  color: #fff; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{ 
+  
+  font-size: 1vw;
 }
+nav{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background: var(--main-bg-color);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  box-shadow: 0 0px 20px 0 #ffffff7d;
+}
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color: aquamarine;
+}
+nav div{
+  font-size: 3vh;
+}
+:root {
+  --main-bg-color: rgba(0, 0, 0, 0.062);
+  
+}
+body{
+  background: url("bgimg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.cddark{
+  background-color: var(--main-bg-color);
+  border: 1px solid #534f4f;
+  box-shadow: 0 0px 10px 0 #ffffff7d;
+  padding: 3px;
+}
+.card{ 
+  margin: 1vh;
+}
+.card img{
+  height: 150px;
+
+}
+.card:hover{
+  transform: scale(1.1)
+}
+.sliderbox{
+  padding: 2vw; 
+}
+.cardbox{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 1vh 0vw;
+
+}
+
+footer{
+  background: var(--main-bg-color);
+  padding: 0 2vw 0 2vw;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 1vh; 
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+footer div{
+  padding: 1vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+footer p{
+  margin: 0;
+}
+footer img{
+  width: 2vw;
+  padding:.1vw;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contain{
+  display: flex;
+  background-color: var(--main-bg-color);
+  border: 1px solid #534f4f;
+  box-shadow: 0 0px 10px 0 #ffffff7d;
+  padding: 3vh;
+justify-content: center;
+align-content: center;
+font-size: 3vw;
+  border-radius: 10px;
+  margin: 1vw;
+font-weight: 600;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.container{
+  display: flex;
+  width: 100vw;
+  font-size: 1vw;
+justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.slide_box{
+  padding: 1vh 17vw;
+  margin: 5vw;
 }
