@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/simplycars/static/css/main.73647ac4.css",
+    "main.js": "/simplycars/static/js/main.9dab0a19.js",
+    "static/js/787.fb5f75bd.chunk.js": "/simplycars/static/js/787.fb5f75bd.chunk.js",
+    "static/media/bgimg.jpg": "/simplycars/static/media/bgimg.520a2efaab78a0c1859c.jpg",
+    "index.html": "/simplycars/index.html",
+    "main.73647ac4.css.map": "/simplycars/static/css/main.73647ac4.css.map",
+    "main.9dab0a19.js.map": "/simplycars/static/js/main.9dab0a19.js.map",
+    "787.fb5f75bd.chunk.js.map": "/simplycars/static/js/787.fb5f75bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73647ac4.css",
+    "static/js/main.9dab0a19.js"
+  ]
+}
