@@ -27,7 +27,7 @@ export default function Footer() {
           </Link>
         </div>
         <div>
-          <p>Copyright © Simplycars 2022-2023</p>
+          <p>Copyright © Simplycars 2015-2023</p>
           <p>All rights reserved</p>{" "}
         </div>
         <div>
@@ -41,7 +41,7 @@ export default function Footer() {
             <p>official.simplycars@gmail.com</p>
           </Mailto>
           <a href="tel:8700458238">
-            <p>8700458238</p>
+            <p>Contact us<img src="./logo/contact.png" alt="contact logo "/></p>
           </a>
         </div>
       </footer>

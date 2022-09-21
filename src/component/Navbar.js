@@ -28,7 +28,7 @@ export default function Navbar(propes) {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to={"/about"}>
-                about
+                About
               </Link>
             </li>
           </ul>{" "}

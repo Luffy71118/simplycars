@@ -6,7 +6,7 @@ export default function Service() {
       <div className="contain">Services</div>
       <div className="container my-0">
         <h1>
-          At JMD Motors, we offer all automotive related services under one
+          At SimplyCars, we offer all automotive related services under one
           roof.
         </h1>
 
